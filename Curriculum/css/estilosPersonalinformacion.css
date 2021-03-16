@@ -1,0 +1,22 @@
+
+body
+{
+
+	background: linear-gradient(45deg, #C0D6DF, #4F6D7A 60%, #E8DAB2);
+	background-size: 2100px 2000px;
+	font-size: 25px;
+	color: rgb(116, 70, 220);
+}
+h1
+{
+	color: rgb(69, 17, 186);
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+}
+p
+{
+	align-self: center;
+	color: rgb(69, 17, 186);
+}

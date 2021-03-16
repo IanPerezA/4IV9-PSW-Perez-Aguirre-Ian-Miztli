@@ -1,0 +1,34 @@
+body{
+	background-image: url(https://img.freepik.com/vector-gratis/plantilla-fondo-tematico-escuela_1308-26300.jpg?size=626&ext=jpg);
+	background-size: 1550px 900px;
+}
+header{
+	color: #B6291B;
+	font-family: sans-serif;
+	size: 30px;
+	letter-spacing: 2px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+
+}
+h2{
+	color: #B6291B;
+	font-family: sans-serif;
+	size: 25px;
+	letter-spacing: 2px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+}
+hr{
+	color: #B6291B;
+}
+ul{
+	size: 20px;
+	color: #0F7E66;
+	font-family:sans-serif; 
+}
+ol{
+	size: 20px;
+	color: #0A2239;
+	font-family: sans-serif;
+}

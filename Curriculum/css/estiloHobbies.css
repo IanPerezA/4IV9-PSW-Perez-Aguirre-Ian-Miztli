@@ -1,0 +1,28 @@
+body{
+	background-image: url(https://www.xtrafondos.com/wallpapers/apex-legends-3030.jpg);
+	background-size: 1200px 550px;
+}
+header{
+	color: #573508;
+	font-family: sans-serif;
+	size: 30px;
+	letter-spacing: 2px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+
+}
+img{
+	border-color: #573508;
+	border-radius: 10px;
+	width: 300px;
+}
+p
+{
+	color: #573508 ;
+	font-family: sans-serif;
+	size: 35px;
+}
+article{
+	color: #573508 ;
+	size: 55px;
+}
