@@ -17,49 +17,31 @@ function CalcuProm(){
     promPar=calP*.55;
     
     
-    var cal= document.examen.value;
+    var cal= document.formulario.examen.value;
     calR=parseInt(cal);
     promE=cal*.30;
 
 
-    var trabajoC= document.trabajo.value;
+    var trabajoC= document.formulario.trabajo.value;
     var t=parseInt(trabajoC);
     promT=t*.15;
     
     
     prom1=parseInt(promPar);
-    Prom2=parseInt(PromE);
+    Prom2=parseInt(promE);
     prom3=parseInt(promT);
     var PromF=prom1+Prom2+prom3;
-    document.cantiadi.value=PromF;
+    document.formulario.cantidadi.value=PromF;
 
 
 }
-function examenfinal(){
-    var cal= document.examen.value;
-    calR=parseInt(cal);
-    promE=cal*.30;
-    return PromE ;  
-}
-function Trabajo(){
-    var trabajoC= document.trabajo.value;
-    var t=parseInt(trabajoC);
-    promT=t*.15;
-    return prompT;
-}
-function PromF()
-{
-    Trabajo()
-    examenfinal()
-    CalcuParciales()
-    promPar=parseInt(promPar);
-    PromE=parseInt(PromE);
-    promT=parseInt(promT);
-    var PromF=promPar+PromE+promT;
-    document.cantiadi.value=PromF;
-}
+
 function borrarI()
 {
-    document.formulario.parciales.value="";
-    document.formulario.cantidad.value="";
+    document.formulario.parcial1.value="";
+    document.formulario.parcial2.value="";
+    document.formulario.parcial3.value="";
+    document.formulario.examen.value="";
+    document.formulario.trabajo.value="";
+    document.formulario.cantidadi.value="";
 }

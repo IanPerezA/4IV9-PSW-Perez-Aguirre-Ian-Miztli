@@ -13,7 +13,8 @@ function CalcuInteres(){
     var valor= document.formulario.cantidad.value;
     var result= parseInt(valor);
     var interes= result * 0.02;
-    var total = result+interes;
+    var meses=document.formulario.meseslista.value;
+    var total = (result+interes)*meses;
     document.formulario.cantidadi.value="$"+total;
 }
 function borrarI()
