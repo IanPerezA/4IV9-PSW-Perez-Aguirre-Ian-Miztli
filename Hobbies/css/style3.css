@@ -1,0 +1,21 @@
+body{
+    background-color: #5EB1BF;
+}
+.Imagen1:hover{
+    width: 20%;
+    height: 30%;
+    border-radius: 3rem;
+    animation: escalar 52ms linear 0s 1 normal backwards;
+}
+tr{
+    
+    display: inline-block;
+}
+table{-ms-flex-align: center;
+align-items: center;
+align-content: center;
+}
+@keyframes escalar{
+    0%   {transform: scale(.8);}
+  100% {transform: scale(1.0);}
+}

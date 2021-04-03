@@ -1,0 +1,70 @@
+body{
+    background-color: #A9F8FB;
+
+}
+header{
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    background-color: #429EA6;
+    border-radius: .5rem;
+    
+    
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 2rem;
+    border-color: #B6DCFE solid;
+    box-sizing: border-box;
+    color: #CC998D;
+    animation: TextoMovimiento 1s 3s 1s infinite alternate backwards;
+}
+img{
+    width: 500px;
+    height: 600px;
+    align-self: center;
+    align-items: center;
+    border: solid #DEC5E3;
+    border-radius: 2rem;
+    border-width: 2rem;
+
+}
+section{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    border-color: #DEC5E3 solid;
+    color: #CC998D;
+}
+video{
+    width: 500px;
+    height: 600px;
+    box-sizing: border-box;
+    border: #DEC5E3 solid;
+    border-width: 2rem;
+}
+@keyframes Textomovimiento{
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateX(600px);
+    }
+}
+.BotonRegreso {
+	box-shadow: 0px 10px 14px -7px #74121D;
+	background:linear-gradient(to bottom, #CFC0BD 5%, #74121D 100%);
+	background-color: #74121D;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #74121D;
+    align-self: right;
+
+}
