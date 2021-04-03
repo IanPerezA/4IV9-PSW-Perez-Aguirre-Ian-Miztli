@@ -1,0 +1,45 @@
+@keyframes fondo{
+    from{
+        background-color: #E8DAB2;
+    }
+    to{
+        background-color: #C0D6DF;
+    }
+}
+@keyframes entrada{
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateX(600px);
+    }
+}
+.Hipervinculos{
+    align-self: center;
+    align-self: start;
+    align-content: center;
+    width: 20%;
+    padding: 1rem;
+    border: 5px solid #EAEAEA;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+    font-size: 22px;
+    animation: entrada 2s linear 1s 1 normal forwards;
+}
+
+body{
+    animation: fondo 10s linear 1s infinite alternate backwards;
+   
+}
+header{
+    width: auto;
+    border: #4F6D7A 5px solid;
+    background-color: #4F6D7A;
+    color: #EAEAEA;
+    font-family: 'Lucida Sans Regular' ;
+    font-size: 20px;
+    border-radius: 2rem;
+}
+
+  
